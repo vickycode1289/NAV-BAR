@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: roboto, arial;
+    
+}
+body{
+    background: url(/Image/nature-3082832_1280.jpg);
+    height: 100vh;
+}
+
+.navbar {
+    background: rgb(135, 164, 8);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    text-decoration: line-through;
+}
+.list-one{
+    list-style: none;
+    display: inline-block;
+}
+.list-one a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.list-one a:hover{
+    background-color: black;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+button a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.row ul{
+    list-style: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.row .footer-col h4{
+    color: rgb(135, 164, 8);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: underline;
+    padding: 0px 10px;
+}
+
+.footer-col .social a{
+    margin: auto;
+    padding: 10px;
+}
+.footer-col .social a:hover{
+    color: white;
+}
+.footer-col ul a {
+    color: white;
+}
+.footer-col ul a:hover{
+    color: blue;
+}
+
+.footer-col .social {
+    margin-left: 20px;
+} 
+
+.footer-col .social a i{
+    color: #fff;
+}
+.footer-col .social a i:hover{
+color: rgb(135, 164, 8);
+}
